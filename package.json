@@ -1,5 +1,7 @@
 {
   "name": "scalable_nextjs_app",
+  "author": "Faiq Ahmad",
+  "description": "A template for creating a production-ready fullstack Next.js application",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,6 +9,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": "Please-use-npm",
+    "npm": ">=10.2.5"
   },
   "dependencies": {
     "react": "^18",
